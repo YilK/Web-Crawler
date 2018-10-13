@@ -8,7 +8,7 @@
 
 ### 1.架构介绍
 
-![](E:\Typora\workstation\931154-20170314141524729-978666187.png)
+![image](https://github.com/YilK/Web-Crawler/blob/master/Scrapy%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/1.png)
 
 
 **Scrapy Engine**

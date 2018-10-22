@@ -1,6 +1,6 @@
 
 
-Scrapy对接Selenium爬取京东商品
+# Scrapy对接Selenium爬取京东商品
 
 **前面学习使用Selenium爬取京东的商品，这一次使用Scrapy对接Selenium的方式来爬取京东的商品**
 

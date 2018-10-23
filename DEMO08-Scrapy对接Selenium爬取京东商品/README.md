@@ -109,7 +109,7 @@ class SeleniumMiddleware():
 
 ​	里面部分代码是从上次上传的代码中粘贴
 
-​	https://github.com/YilK/Web-Crawler/blob/master/DEMO07-%E5%88%A9%E7%94%A8Selenium%E7%88%AC%E5%8F%96%E4%BA%AC%E4%B8%9C%E5%95%86%E5%93%81/%E5%88%A9%E7%94%A8Selenium%E7%88%AC%E5%8F%96%E4%BA%AC%E4%B8%9C%E5%95%86%E5%93%81.py
+​	[**利用Selenium爬取京东商品.py**](https://github.com/YilK/Web-Crawler/blob/master/DEMO07-%E5%88%A9%E7%94%A8Selenium%E7%88%AC%E5%8F%96%E4%BA%AC%E4%B8%9C%E5%95%86%E5%93%81/%E5%88%A9%E7%94%A8Selenium%E7%88%AC%E5%8F%96%E4%BA%AC%E4%B8%9C%E5%95%86%E5%93%81.py)
 
 ​	需要注意的是：在 ==process_reqest(self, request, spider)== 中返回的是一个Response对象 ，返回了Response对象，它会被直接发送给Spider，不再使用Scrapy中的 Downloader
 

@@ -7,7 +7,6 @@ import json
 import time
 
 
-
 def get_json_negative_comments(page):
     '''
 
@@ -96,12 +95,13 @@ def save_negative_comments(negative_list, index):
         for item in negative_list:
             f.write(item + "\n")
 
+
 if __name__ == '__main__':
-    for i in range(20):
+    for i in range(20):  # 爬取前20页的评论
         postive_list = []
         result1 = get_json_postive_comments(i)
         pick_up_positive_comments(result1, postive_list)
-        save_postive_comments(postive_list,i)
+        save_postive_comments(postive_list, i)
         time.sleep(1)
         negative_list = []
         result2 = get_json_negative_comments(i)
@@ -109,4 +109,3 @@ if __name__ == '__main__':
         save_negative_comments(negative_list, i)
 
         time.sleep(1)
-
